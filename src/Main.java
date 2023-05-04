@@ -12,7 +12,7 @@ public class Main {
             bonus = 0;
         }
 
-        System.out.println("Баланс счета: " + (initialAmount + replenishmentAmount + bonus) + " руб.");
-
+        System.out.println("Общий баланс счета: " + (initialAmount + replenishmentAmount + bonus) + " руб.");
+        System.out.println("Бонусный счет: " + bonus + " руб.");
     }
 }
